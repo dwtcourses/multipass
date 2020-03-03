@@ -136,8 +136,7 @@ TEST_F(CustomImageHost, returns_expected_data_for_snapcraft_core20)
     auto info = host.info_for(make_query("core20", "snapcraft"));
 
     ASSERT_TRUE(info);
-    EXPECT_EQ(QUrl::fromLocalFile(test_path + "ubuntu-20.04-minimal-cloudimg-amd64.img").toString(),
-              info->image_location);
+    EXPECT_EQ(QUrl::fromLocalFile(test_path + "focal-server-cloudimg-amd64-disk.img").toString(), info->image_location);
     EXPECT_EQ("e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", info->id.toStdString());
     EXPECT_EQ("snapcraft-core20", info->release.toStdString());
     EXPECT_EQ("Snapcraft builder for Core 20", info->release_title.toStdString());

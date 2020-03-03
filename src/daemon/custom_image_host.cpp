@@ -86,8 +86,8 @@ const QMap<QString, CustomImageInfo> snapcraft_image_info{
       "ubuntu-18.04-server-cloudimg-amd64-vmlinuz-generic",
       "https://cloud-images.ubuntu.com/releases/bionic/release/unpacked/"
       "ubuntu-18.04-server-cloudimg-amd64-initrd-generic"}},
-    {{"ubuntu-20.04-minimal-cloudimg-amd64.img"},
-     {"https://cloud-images.ubuntu.com/minimal/releases/focal/release/",
+    {{"focal-server-cloudimg-amd64-disk.img"},
+     {"https://cloud-images.ubuntu.com/buildd/daily/focal/current/",
       {"core20"},
       "",
       "snapcraft-core20",

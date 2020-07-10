@@ -66,8 +66,8 @@ const QMap<QString, CustomImageInfo> multipass_image_info{
      {"http://cdimage.ubuntu.com/ubuntu-core/18/stable/current/", {"core18"}, "Ubuntu", "core-18", "Core 18", "", ""}}};
 
 const QMap<QString, CustomImageInfo> snapcraft_image_info{
-    {{"ubuntu-16.04-minimal-cloudimg-amd64-disk1.img"},
-     {"https://cloud-images.ubuntu.com/minimal/releases/xenial/release/",
+    {{"xenial-20200708.2.img"},
+     {"https://private-fileshare.canonical.com/~cshep/images/bootable-buildd/",
       {"core", "core16"},
       "",
       "snapcraft-core16",
@@ -76,8 +76,8 @@ const QMap<QString, CustomImageInfo> snapcraft_image_info{
       "ubuntu-16.04-server-cloudimg-amd64-vmlinuz-generic",
       "https://cloud-images.ubuntu.com/releases/xenial/release/unpacked/"
       "ubuntu-16.04-server-cloudimg-amd64-initrd-generic"}},
-    {{"bionic-server-cloudimg-amd64-disk.img"},
-     {"https://cloud-images.ubuntu.com/buildd/release/bionic/release/",
+    {{"bionic-20200708.img"},
+     {"https://private-fileshare.canonical.com/~cshep/images/bootable-buildd/",
       {"core18"},
       "",
       "snapcraft-core18",
@@ -86,8 +86,8 @@ const QMap<QString, CustomImageInfo> snapcraft_image_info{
       "ubuntu-18.04-server-cloudimg-amd64-vmlinuz-generic",
       "https://cloud-images.ubuntu.com/releases/bionic/release/unpacked/"
       "ubuntu-18.04-server-cloudimg-amd64-initrd-generic"}},
-    {{"focal-server-cloudimg-amd64-disk.img"},
-     {"https://cloud-images.ubuntu.com/buildd/release/focal/release/",
+    {{"focal-20200708.img"},
+     {"https://private-fileshare.canonical.com/~cshep/images/bootable-buildd/",
       {"core20"},
       "",
       "snapcraft-core20",
